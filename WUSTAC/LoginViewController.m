@@ -7,7 +7,7 @@
 //
 
 #import "LoginViewController.h"
-#import "MainViewController.h"
+
 
 @implementation LoginViewController
 @synthesize loginView;
@@ -41,6 +41,7 @@
         UIStoryboard* secondStoryboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
         UIViewController* secondViewController = [secondStoryboard instantiateViewControllerWithIdentifier:@"Main"];
         [self presentViewController: secondViewController animated:YES completion: NULL];
+        [dispatcherSingleton initialize];
     } else if(!([theTitle isEqualToString:@""]||[theTitle isEqualToString:loginString])){
         NSURLRequest *connectRequest = [NSURLRequest requestWithURL:connectURL];
         [loginView loadRequest:connectRequest];

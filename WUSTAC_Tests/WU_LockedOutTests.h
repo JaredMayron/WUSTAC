@@ -6,7 +6,7 @@
 //  Copyright (c) 2013 Jared Mayron. All rights reserved.
 //
 
-#import <SenTestingKit/SenTestingKit.h>
+//#import <SenTestingKit/SenTestingKit.h>
 
 @interface WU_LockedOutTests : SenTestCase
 

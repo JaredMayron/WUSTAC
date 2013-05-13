@@ -8,9 +8,6 @@
 
 #import "AboutRefreshViewController.h"
 
-@interface AboutRefreshViewController ()
-
-@end
 
 @implementation AboutRefreshViewController
 
@@ -26,7 +23,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
+    NSDictionary *infoDictionary = [[NSBundle mainBundle] infoDictionary];
+    NSString *appDisplayName = [infoDictionary objectForKey:@"CFBundleDisplayName"];
+    NSString *majorVersion = [infoDictionary objectForKey:@"CFBundleShortVersionString"];
+    NSString *minorVersion = [infoDictionary objectForKey:@"CFBundleVersion"];
+    [versionLabel setText:[NSString stringWithFormat:@"%@, Version %@ (%@)",
+                           appDisplayName, majorVersion, minorVersion]];
+	[self initNotifications];
 }
 
 - (void)didReceiveMemoryWarning
@@ -34,5 +37,20 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (void) initNotifications
+{
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(setNumberOfLoads:) name:loads object:nil];
+}
 
+-(void) startSend {}
+
+- (IBAction)refreshAll:(id)sender
+{
+    [[dispatcherSingleton initialize] forceReload];
+}
+                                                                     
+-(void)setNumberOfLoads:(NSNotification *)notification
+{
+    [numLoadsLabel setText:[NSString stringWithFormat:@"%i",[[dispatcherSingleton initialize]  getNumberOfFailedLoads]]];
+}
 @end

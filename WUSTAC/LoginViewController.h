@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "dispatcherSingleton.h"
 
 @interface LoginViewController : UIViewController <UIWebViewDelegate>
 {

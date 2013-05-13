@@ -8,9 +8,6 @@
 
 #import "ClassesViewController.h"
 
-@interface ClassesViewController ()
-
-@end
 
 @implementation ClassesViewController
 
@@ -35,4 +32,13 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void) initNotifications
+{
+    
+}
+
+-(void) startSend
+{
+    
+}
 @end

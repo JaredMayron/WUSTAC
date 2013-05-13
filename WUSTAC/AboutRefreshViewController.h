@@ -7,7 +7,13 @@
 //
 
 #import "DCViewController.h"
+#import "dispatcherSingleton.h"
 
-@interface AboutRefreshViewController : DCViewController
+@interface AboutRefreshViewController : DCViewController{
+    IBOutlet UILabel *versionLabel;
+    IBOutlet UILabel *numLoadsLabel;
+}
+
+-(void)setNumberOfLoads:(NSNotification*) notification;
 
 @end
