@@ -23,6 +23,7 @@
 		7F6684D1173EC4C50082AE28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F6684C3173EC4C50082AE28 /* Main.storyboard */; };
 		7F6684D3173EC4C50082AE28 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F6684C6173EC4C50082AE28 /* placeholder.png */; };
 		7F6684E5173EC9660082AE28 /* dispatcherSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6684E4173EC9660082AE28 /* dispatcherSingleton.m */; };
+		7F6B453817417C16000A2872 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7F6B453717417C16000A2872 /* README.txt */; };
 		7FEA8F1317402C910088133F /* DCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FEA8F1217402C910088133F /* DCViewController.m */; };
 		7FEA8F1917402DB60088133F /* BalancesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FEA8F1817402DB60088133F /* BalancesViewController.m */; };
 		7FEA8F1C17402E2B0088133F /* HousingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FEA8F1B17402E2B0088133F /* HousingViewController.m */; };
@@ -64,6 +65,7 @@
 		7F6684C8173EC4C50082AE28 /* WUSTAC-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WUSTAC-Prefix.pch"; sourceTree = "<group>"; };
 		7F6684E3173EC9660082AE28 /* dispatcherSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dispatcherSingleton.h; sourceTree = "<group>"; };
 		7F6684E4173EC9660082AE28 /* dispatcherSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dispatcherSingleton.m; sourceTree = "<group>"; };
+		7F6B453717417C16000A2872 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		7FEA8F1117402C910088133F /* DCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCViewController.h; sourceTree = "<group>"; };
 		7FEA8F1217402C910088133F /* DCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCViewController.m; sourceTree = "<group>"; };
 		7FEA8F1717402DB60088133F /* BalancesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BalancesViewController.h; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 		7F64433D171DB9AF0004A2D8 = {
 			isa = PBXGroup;
 			children = (
+				7F6B453717417C16000A2872 /* README.txt */,
 				7F6684B6173EC4C50082AE28 /* WUSTAC */,
 				7F644348171DB9AF0004A2D8 /* Frameworks */,
 				7F644347171DB9AF0004A2D8 /* Products */,
@@ -339,6 +342,7 @@
 				7F6684CD173EC4C50082AE28 /* Entry.storyboard in Resources */,
 				7F6684D1173EC4C50082AE28 /* Main.storyboard in Resources */,
 				7F6684D3173EC4C50082AE28 /* placeholder.png in Resources */,
+				7F6B453817417C16000A2872 /* README.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
