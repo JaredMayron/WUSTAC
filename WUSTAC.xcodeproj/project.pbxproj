@@ -12,6 +12,11 @@
 		7F42C74F1741E4C0005116C6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F42C74E1741E4C0005116C6 /* Default@2x.png */; };
 		7F42C7511741E520005116C6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F42C7501741E520005116C6 /* Default.png */; };
 		7F42C7531741ECE4005116C6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F42C7521741ECE4005116C6 /* Default-568h@2x.png */; };
+		7F42C7571742D679005116C6 /* title.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F42C7561742D679005116C6 /* title.png */; };
+		7F42C75B1742D87A005116C6 /* bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F42C75A1742D87A005116C6 /* bottom.png */; };
+		7F42C75D1742DD2C005116C6 /* housingBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F42C75C1742DD2C005116C6 /* housingBackground.png */; };
+		7F42C7611742E1F4005116C6 /* boxBig.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F42C7601742E1F4005116C6 /* boxBig.png */; };
+		7F42C7631742E490005116C6 /* boxSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F42C7621742E490005116C6 /* boxSmall.png */; };
 		7F64434A171DB9AF0004A2D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F644349171DB9AF0004A2D8 /* UIKit.framework */; };
 		7F64434C171DB9AF0004A2D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F64434B171DB9AF0004A2D8 /* Foundation.framework */; };
 		7F64434E171DB9AF0004A2D8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F64434D171DB9AF0004A2D8 /* CoreGraphics.framework */; };
@@ -50,6 +55,11 @@
 		7F42C74E1741E4C0005116C6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
 		7F42C7501741E520005116C6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
 		7F42C7521741ECE4005116C6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		7F42C7561742D679005116C6 /* title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title.png; sourceTree = "<group>"; };
+		7F42C75A1742D87A005116C6 /* bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottom.png; sourceTree = "<group>"; };
+		7F42C75C1742DD2C005116C6 /* housingBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = housingBackground.png; sourceTree = "<group>"; };
+		7F42C7601742E1F4005116C6 /* boxBig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boxBig.png; sourceTree = "<group>"; };
+		7F42C7621742E490005116C6 /* boxSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boxSmall.png; sourceTree = "<group>"; };
 		7F644346171DB9AF0004A2D8 /* WUSTAC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WUSTAC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F644349171DB9AF0004A2D8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7F64434B171DB9AF0004A2D8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -164,6 +174,9 @@
 		7F6684DF173EC8B90082AE28 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				7F42C7621742E490005116C6 /* boxSmall.png */,
+				7F42C7601742E1F4005116C6 /* boxBig.png */,
+				7F42C75C1742DD2C005116C6 /* housingBackground.png */,
 				7F42C7521741ECE4005116C6 /* Default-568h@2x.png */,
 				7F42C7501741E520005116C6 /* Default.png */,
 				7F42C74E1741E4C0005116C6 /* Default@2x.png */,
@@ -190,6 +203,8 @@
 			children = (
 				7F6684C0173EC4C50082AE28 /* LoginViewController.h */,
 				7F6684C1173EC4C50082AE28 /* LoginViewController.m */,
+				7F42C75A1742D87A005116C6 /* bottom.png */,
+				7F42C7561742D679005116C6 /* title.png */,
 			);
 			name = Login;
 			sourceTree = "<group>";
@@ -351,6 +366,11 @@
 				7F42C74F1741E4C0005116C6 /* Default@2x.png in Resources */,
 				7F42C7511741E520005116C6 /* Default.png in Resources */,
 				7F42C7531741ECE4005116C6 /* Default-568h@2x.png in Resources */,
+				7F42C7571742D679005116C6 /* title.png in Resources */,
+				7F42C75B1742D87A005116C6 /* bottom.png in Resources */,
+				7F42C75D1742DD2C005116C6 /* housingBackground.png in Resources */,
+				7F42C7611742E1F4005116C6 /* boxBig.png in Resources */,
+				7F42C7631742E490005116C6 /* boxSmall.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

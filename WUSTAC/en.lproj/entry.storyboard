@@ -13,15 +13,17 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" id="dlB-ZB-SnJ">
-                                <rect key="frame" x="0.0" y="146" width="320" height="402"/>
+                                <rect key="frame" x="0.0" y="85" width="320" height="300"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </webView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="WUSTAC" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="cRT-a6-mm9">
-                                <rect key="frame" x="5" y="5" width="301" height="64"/>
-                                <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="32"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="title.png" id="8XK-Db-DO5">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="bottom.png" id="E6w-fz-SNl">
+                                <rect key="frame" x="0.0" y="390" width="320" height="160"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -34,6 +36,10 @@
             <point key="canvasLocation" x="16" y="-14"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="bottom.png" width="320" height="160"/>
+        <image name="title.png" width="320" height="80"/>
+    </resources>
     <classes>
         <class className="LoginViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/LoginViewController.h"/>
